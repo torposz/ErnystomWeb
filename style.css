@@ -1,0 +1,257 @@
+body
+{
+	background-color: black;	
+	font-family: kalinga;	
+}
+
+#header
+ {
+	margin:0 auto;
+	margin-top: 20px;	
+	vertical-align: middle;
+	width: 990px;
+    border: 0px solid black;
+    padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;		
+	height: 200px;
+	background: linear-gradient(to left, #670000, black, #670000);
+	background-color: #670000;
+	color: #BAB9B9;	
+}
+
+#mainlogo
+{
+	width: 758px;
+	float: left;
+	padding-right: 20px;
+}
+
+#nav-horizontal
+ {
+    margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 1020px;
+	height: 46px;
+	border: 0px solid black;
+	padding: 0px;
+	background-color: #372E2E;
+	color: #B0AFAF;
+	font-weight: bold;
+}
+
+#nav-vertical
+{
+	height: 480px;
+	width: 200px;
+	float: left;
+	border: 0px solid black;
+	background-color: #372E2E;
+	padding: 10px;
+}
+
+#content
+ {
+    height: 460px;
+	width: 750px;	
+	border: 0px solid black;	
+	background-color: #191414;
+	color: #BAB9B9;
+	float: right;
+	padding: 20px;
+}
+
+h2 
+{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.content
+{
+	margin-top: 0;
+}
+
+
+#footer
+ {
+    margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 1000px;
+	border: 0px solid black;
+	padding: 10px;
+	/*background-color: #670000;*/
+	font-weight: bold;
+	clear: both;
+	background: linear-gradient(#670000, #450000);	
+}
+
+#holder
+ {
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: 10px;	
+	width: 1020px;
+	border: 0px solid black;	
+	background-color: black;
+	height: 500px;
+	clear: both;
+}
+
+#copyright
+{
+	margin: 0 auto; 
+	text-align: center;	
+}
+
+p
+{
+	text-align:justify;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 255px;
+	height: 36px;
+    font-weight: bold;
+    color: #BAB9B9;
+    /*background-color: #372E2E;*/
+    text-align: center;	
+    text-decoration: none;   
+	padding-top: 10px;
+	background: linear-gradient(#372E2E, #191414);
+}
+
+a:hover, a:active {
+    /*background-color: #670000;*/	
+	background: linear-gradient(#670000, #250000);
+}
+
+ul {
+    /*list-style-type: none;*/
+    margin: 0px auto;
+	padding: 0px;
+    overflow: hidden;
+	display: inline;
+}
+
+/*ul li 
+{
+    display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}*/
+
+ul li#home-menu
+{
+    /*float: left;*/
+	display: inline-block;
+	margin-right: -4px;
+	margin-left: -4px;
+	position: relative;
+	padding: 0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+ul li#characters-menu
+{
+    /*float: left;*/
+	display: inline-block;
+	margin-right: -4px;
+	margin-left: 0px;	
+	position: relative;
+	padding: 0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+ul li#events-menu
+{
+    /*float: left;*/
+	display: inline-block;
+	margin-right: -4px;
+	margin-left: 0px;
+	position: relative;
+	padding: 0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+ul li#about-menu
+{
+    /*float: left;*/
+	display: inline-block;
+	margin-right: -4px;
+	margin-left: 0px;
+	position: relative;
+	padding: 0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+ul li ul 
+{
+  padding: 0;  
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 255px;  
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+/*ul li ul li
+{ 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;*/
+}
+
+ul li ul li:hover 
+{ 
+	background: #666;
+}
+
+ul li:hover ul
+{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
