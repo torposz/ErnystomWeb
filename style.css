@@ -61,6 +61,7 @@ body
 	color: #BAB9B9;
 	float: right;
 	padding: 20px;
+	overflow: auto;	
 }
 
 h2 
@@ -79,6 +80,18 @@ h2
 	margin-top: 0;
 }
 
+.char-sheet
+{
+    height: 400px;
+	width: 728px;	
+}
+
+.charpic
+{
+    float: left;
+	height: 50px;
+	padding-right: 10px;
+}
 
 #footer
  {
